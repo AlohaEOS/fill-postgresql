@@ -911,7 +911,7 @@ struct session : enable_shared_from_this<session> {
             R"(.block_info(                   
                 "block_index" bigint,
                 "block_id" varchar(64),
-                "timestamp" timestamp,
+                "timestamp" timestamp(1),
                 "producer" varchar(13),
                 "confirmed" integer,
                 "previous" varchar(64),
